@@ -1,0 +1,17 @@
+/* Regra de seletor universal - aplicado a todos os elementos da página */
+*{font-family: Arial, Helvetica, sans-serif;}
+
+/* Regras CSS de Elementos-Seletores (TAGs)*/
+h2{color: #8a2be2;
+   font-family: calibri;}
+h3{background-color: #6a69a1;
+   text-align: right; } 
+p em{color: crimson;}     
+
+/* Regras CSS para Classes associadas*/
+p.cor-fundo{background-color: burlywood;}   
+h1.cor-fundo{background-color: rgb(207, 130, 117);}
+
+/* Regras CSS para Classes não-associadas*/
+.centraliza{text-align: center;}
+.cor-texto{color: rgb(173, 101, 101);}

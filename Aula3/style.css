@@ -1,0 +1,15 @@
+* {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    color: whitesmoke;
+}
+#titulop {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#principal {
+    background: linear-gradient(70deg, rgb(53, 53, 150), rgb(81, 94, 209));
+}

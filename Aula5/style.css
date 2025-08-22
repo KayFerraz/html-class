@@ -38,6 +38,7 @@
     background-color: #0b729b;
     width: 10cm;
     display: block;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
 }

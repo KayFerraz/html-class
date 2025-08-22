@@ -63,3 +63,19 @@
     margin: 3px;
     font-size: 25px;
 }
+.card{
+    margin: 0px;
+    background-color: rgb(57, 167, 194);
+    padding: 1cm;
+    border-radius: 50px;
+    font-size:  20px;
+    width: 400px;
+    height: 200px;
+}
+.credit{
+    background-color: transparent;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    display: flex;
+}

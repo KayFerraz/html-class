@@ -9,10 +9,15 @@
     display: block;
     padding: 1cm;
     border-radius: 70px;
-    font-size:  20px;
+    font-size:  17px;
     text-align: justify;
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content
+}
+.imdesc{ 
+    width: 10cm;
+    height: 5cm;
+
 }
 .imgcapa {
     padding: 9px;
@@ -36,7 +41,7 @@
 }
 .subtitulo{
     background-color: #0b729b;
-    width: 10cm;
+    width: fit-content;
     display: block;
     border-radius: 10px;
     justify-content: center;

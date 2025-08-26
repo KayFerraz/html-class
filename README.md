@@ -8,6 +8,6 @@ Este é um projeto, desenvolvido único e exclusivamente, em **HTML5** e **CSS3*
 - Exibição de pacotes promocionais de viagens.  
 - Estrutura visual com imagens dos destinos.  
 - Estilização com CSS, incluindo sombras, bordas arredondadas e cores personalizadas.  
-- Layout simples e responsivo para estudos de front-end.  
+- Layout simples e responsivo.
 
 

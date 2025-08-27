@@ -12,12 +12,13 @@
     font-size:  17px;
     text-align: justify;
     width: fit-content;
-    height: fit-content
+    height: fit-content;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .imdesc{ 
     width: 10cm;
     height: 5cm;
-
+    
 }
 .imgcapa {
     padding: 9px;

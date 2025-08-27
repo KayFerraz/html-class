@@ -14,8 +14,10 @@
     border-radius: 5px;
     margin: 0% auto;
     box-shadow: 5px 5px 5px rgb(49, 49, 49);
+
 }
-.table2{
-    background-color: rgb(202, 117, 127);
-    
+troi:nth-child(n+1) 
+{
+    color: rgb(138, 138, 138);
 }
+

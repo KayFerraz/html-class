@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        *{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2rem;
+        font-weight: normal;
+        background-color: lightgray;
+    }   input{background-color: rgb(255, 240, 237);}
+    button{background-color: lightblue;}
+    </style>
+</head>
+<body>
+    <form name="cadP" id="fcadCli">
+    <label for=""></label>
+    <input type="text" name="nome" id="nome" placeholder="Nome Completo" size="30" maxlength="60" required><br>
+    <input type="email" name="email" id="email" placeholder="E-mail" size="30" maxlength="60" required><br>
+    <input type="password" name="senha" id="senha" placeholder="Senha" size="15" maxlength="15" required><br>
+    <input type="tel" name="tel" id="tel" placeholder="Telefone" size="15" maxlength="15"><br>
+    <input type="number" name="idade" id="idade" placeholder="Idade" size="3" maxlength="3" min="0" max="120"><br>
+    <input type="checkbox" id="check1" name="check1" value="10" checked> 
+    <strong>Opção 1</strong><br>
+    <input type="checkbox" id="check2" name="check2" value="20">
+    <strong>Opção 2</strong><br>
+    <input type="checkbox" id="check3" name="check3" value="30">
+    <strong>Opção 3</strong><br>
+    <input type="checkbox" id="check4" name="check4" value="40">
+    <strong>Opção 4</strong><br>
+    <hr>
+    <label for="estadoCivil">ESTADO CIVIL</label><br>
+    <input checked type="radio" id="estadoCivil" name="estadoCivil" value="S"><br>
+    <strong>Solteiro</strong><br>
+    <input type="radio" id="estadoCivil" name="estadoCivil" value="C"><br> 
+    <strong>Casado</strong><br>
+    <input type="radio" id="estadoCivil" name="estadoCivil" value="D"><br>
+    <strong>Divorciado</strong><br>
+    <input type="radio" id="estadoCivil" name="estadoCivil" value="V"><br>
+    <strong>Viúvo</strong><br>
+    <hr>
+
+    <input type="button" name="bOK" value="Enviar" id="bOK" onclick="alert('Salvo com sucesso!')">
+    <!------<input type="reset" name="bLimpar" value="Limpar" id="bLimpar" onmouseover="alert('Campos limpos!')">------>
+    <input type="reset" name="bLimpar" value="Limpar" id="bLimpar"><br><br>
+    <input type="submit" name="bSubmit" value="Submit" id="bSubmit">
+    <button type="button" name="bClique" id="bClique"  onclick="alert('Clicou no botão!')">Clique Aqui
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt="icone" width="20px" height="20px">
+    </button>
+    <hr>
+    file: <input type="file" width="90px"  name="arquivo" id="arquivo" accept=".pdf, .doc, .docx, .jpg, .png"><br>
+</form>
+</body>
+</html>
